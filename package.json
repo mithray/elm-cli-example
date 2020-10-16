@@ -1,0 +1,24 @@
+{
+  "name": "platform",
+  "version": "1.0.0",
+  "description": "elm cli example",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "elm make --optimize src/Main.elm --output=dist/main.js",
+    "buildDev": "elm make --debug src/Main.elm --output=dist/main.js",
+    "bin": "node ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxxcarlson/elm-platform-worker-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
